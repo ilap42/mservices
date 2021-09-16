@@ -6,7 +6,8 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@FeignClient(name = "bike-mservice",url="http://localhost:8003")
+//@FeignClient(name = "bike-mservice",url="http://localhost:8003") //Cambio Realizado al registrarse con Eureka
+@FeignClient(name = "bike-mservice")
 @RequestMapping("/bike")
 public interface BikeFeignClient {
 

@@ -5,8 +5,8 @@ import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-
-@FeignClient(name = "car-mservice",url="http://localhost:8002")
+//@FeignClient(name = "car-mservice",url="http://localhost:8002") //Cambio Realizado al registrarse con Eureka
+@FeignClient(name = "car-mservice")
 @RequestMapping("/car")
 public interface CarFeignClient {
 
