@@ -5,7 +5,7 @@ spring:
     config:
       server:
         git:
-          default-label: eureka #Usar la rama(branch) que estamos usando actualmente en github
+          default-label: multiple-instances #Usar la rama(branch) que estamos usando actualmente en github
           uri: https://github.com/ilap42/mservices
           search-paths: config-data
   application:
